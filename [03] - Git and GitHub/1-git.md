@@ -27,3 +27,38 @@ git config user.email
 ```bash
 git init
 ```
+
+4. Legends
+
+- U : Untracked
+- A : added
+- M : Modified
+
+## Git Three stage Architecturegit
+
+- A : Added
+- M : Modified
+
+## Git Three Stage Architecture
+
+1. Check the status of all files and folders.
+
+```bash
+git status
+```
+
+2. Add modified files to the staging area.
+
+```bash
+
+# Add all the modified files.
+git add .
+# Add a specific file
+git add [destination_path]
+```
+
+3. Create a commit
+
+```bash
+git commit -m "[commit_message]"
+```
